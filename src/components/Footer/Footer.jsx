@@ -15,7 +15,7 @@ import "./style.css";
 
 const Footer = () => {
   return (  
-          <Box>
+          
             <Text
               as="p"
               fontSize={{ base: "12.59px", md: "15.5px" }}
@@ -27,9 +27,9 @@ const Footer = () => {
               &copy;
               {` ${new Date().getFullYear()} All rights reserved by ArcleNime.`}
             </Text>
-          </Box>
+    
 
-          {/* Privacy Policy */}
+         {/* Privacy Policy */}
           <Box display="flex" gap="20px">
             <Link className="policy">Privacy Policy</Link>
             <Link className="policy">Comments Policy</Link>
