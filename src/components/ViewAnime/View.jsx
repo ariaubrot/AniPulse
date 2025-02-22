@@ -57,7 +57,7 @@ const View = () => {
       setAnimeStudios(data.data.anime.moreInfo.producers);
 
       // Set document title
-      document.title = `${data.data.anime.info.name} - AniPulse`;
+      document.title = `${data.data.anime.info.name} - ArcleNime`;
     } catch (err) {
       setError("Failed to load anime data. Please try again.");
       console.error("Error fetching anime data:", err);
