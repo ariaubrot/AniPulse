@@ -27,9 +27,9 @@ const Footer = () => {
               &copy;
               {` ${new Date().getFullYear()} All rights reserved by AniPulse.`}
             </Text>
-          </Box>
+    
 
-          {/* Privacy Policy */}
+         {/* Privacy Policy */}
           <Box display="flex" gap="20px">
             <Link className="policy">Privacy Policy</Link>
             <Link className="policy">Comments Policy</Link>
