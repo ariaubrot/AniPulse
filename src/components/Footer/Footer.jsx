@@ -17,12 +17,6 @@ const Footer = () => {
   return (
     <Box>
       <Box
-        bg={`url(${footerImg})`}
-        bgPos="center"
-        bgRepeat="no-repeat"
-        bgSize="cover"
-        py="40px"
-      >
         {/* Footer Main */}
         <Box
           maxW={{
