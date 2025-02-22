@@ -10,7 +10,6 @@ import {
 } from "@chakra-ui/react";
 import { Form, Link } from "react-router-dom";
 
-import footerImg from "../../assets/footer.png";
 import "./style.css";
 
 const Footer = () => {
