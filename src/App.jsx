@@ -7,9 +7,6 @@ import {
 
 //import Pages
 import Home from "./pages/Home/Home";
-import Trending from "./pages/Trending/Trending";
-import Movies from "./pages/Movies/Movies";
-import Popular from "./pages/Popular/Popular";
 import Stream from "./pages/Stream/Stream";
 import View from "./components/ViewAnime/View";
 import Filter from "./pages/Search/Filter";
@@ -22,10 +19,7 @@ const router = createBrowserRouter(
     <>
       <Route path="/" index element={<Home />} />
       <Route path="/auth/login" index element={<Login />} />
-      <Route path="/auth/signup" index element={<Signup />} />
-      <Route path="/trending" index element={<Trending />} />
-      <Route path="/movies" index element={<Movies />} />
-      <Route path="/popular" element={<Popular />} />
+      <Route path="/auth/signup" index element={<Signup />} />     
       <Route path="/profile" element={<Profile />} />
       <Route path="/anime/:id" element={<View />} />
       <Route path="/search/keyword/:searchQuery" element={<Filter />} />
