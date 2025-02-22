@@ -15,34 +15,6 @@ import "./style.css";
 
 const Footer = () => {
   return (
-
-            <Text
-              as="span"
-              fontSize="13.45px"
-              fontWeight="300"
-              lineHeight="21px"
-              letterSpacing="0.5px"
-              color="#d4d4d4"
-              textAlign={{ base: "center", md: "start" }}
-            >
-              By subscribing you agree to our terms and conditions.
-            </Text>
-          </Box>
-        </Box>
-      </Box>
-      <Box bg="var(--primary-background-color)" py="20px">
-        <Box
-          maxW={{
-            base: "95%",
-            xl: "85%",
-            "2xl": "container.xl",
-          }}
-          margin="auto"
-          display="flex"
-          flexDir={{ base: "column", md: "row" }}
-          alignItems="center"
-          justifyContent={{ base: "center", md: "space-between" }}
-        >
           {/* Copyright */}
           <Box>
             <Text
