@@ -8,9 +8,6 @@ import {
   InputRightAddon,
   Text,
 } from "@chakra-ui/react";
-import { Form, Link } from "react-router-dom";
-
-
 import "./style.css";
 
 const Footer = () => {
