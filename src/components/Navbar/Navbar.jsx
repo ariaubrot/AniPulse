@@ -156,7 +156,7 @@ const Navbar = () => {
                 }}
                 transition="all ease 0.25s"
               >
-                Ani
+                Arcle
               </Text>
               <Text
                 className="logo_tag"
@@ -165,7 +165,7 @@ const Navbar = () => {
                 _hover={{ color: "var(--accent-color)" }}
                 transition="all ease 0.25s"
               >
-                Pulse
+                Nime
               </Text>
             </Link>
           </Heading>
