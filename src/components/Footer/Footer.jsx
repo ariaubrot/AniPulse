@@ -58,6 +58,7 @@ const Footer = () => {
                 </Text>
               </Link>
             </Heading>
+          </Box>
 
           {/* Footer newsletter */}
           <Box w={{ base: "100%", md: "40%" }} display="flex" flexDir="column">
@@ -172,7 +173,7 @@ const Footer = () => {
               letterSpacing="0.5px"
             >
               &copy;
-              {` ${new Date().getFullYear()} All rights reserved by AniPulse.`}
+              {` ${new Date().getFullYear()} All rights reserved by ArcleNime.`}
             </Text>
           </Box>
 
@@ -188,4 +189,3 @@ const Footer = () => {
 };
 
 export default Footer;
-          
