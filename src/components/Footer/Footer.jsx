@@ -14,26 +14,7 @@ import { Form, Link } from "react-router-dom";
 import "./style.css";
 
 const Footer = () => {
-  return (
-    <Box>
-      <Box
-        {/* Footer Main */}
-        <Box
-          maxW={{
-            base: "85%",
-            sm: "95%",
-            xl: "85%",
-            "2xl": "container.xl",
-          }}
-          margin="auto"
-          display="flex"
-          flexDir={{ base: "column", md: "row" }}
-          gap={{ base: "40px 0", md: "0" }}
-          alignItems="center"
-          justifyContent={{ base: "center", md: "space-between" }}
-        >
-          {/* Footer con */}          
-          {/* Copyright */}
+  return (  
           <Box>
             <Text
               as="p"
