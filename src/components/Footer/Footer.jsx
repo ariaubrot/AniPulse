@@ -57,7 +57,10 @@ const Footer = () => {
                   Nime
                 </Text>
               </Link>
-            </Heading>            
+            </Heading>
+
+            
+          </Box>
 
           {/* Footer newsletter */}
           <Box w={{ base: "100%", md: "40%" }} display="flex" flexDir="column">
@@ -188,4 +191,3 @@ const Footer = () => {
 };
 
 export default Footer;
-        
