@@ -9,7 +9,7 @@ import Catalog from "../../components/Catalog";
 import WeeklySchedule from "../../components/WeeklySchedule";
 
 const Home = () => {
-  document.title = `Home - AniPulse`;
+  document.title = `Home - ArcleNime`;
 
   return (
     <Box>
