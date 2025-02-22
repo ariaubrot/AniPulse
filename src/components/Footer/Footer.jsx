@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { Form, Link } from "react-router-dom";
 
-import footerImg from "../../assets/footer.png";
+
 import "./style.css";
 
 const Footer = () => {
@@ -38,27 +38,7 @@ const Footer = () => {
           alignItems="center"
           justifyContent={{ base: "center", md: "space-between" }}
         >
-          {/* Footer con */}
-          <Box w={{ base: "100%", md: "50%" }}>
-            <Heading
-              m="0"
-              mb="20px"
-              textAlign={{ base: "center", md: "start" }}
-            >
-              <Link to="/" className="logo">
-                <Text as="span" color="var(--secondary-color)">
-                  Arcle
-                </Text>
-                <Text
-                  className="logo_tag"
-                  as="span"
-                  color="var(--primary-color)"
-                >
-                  Nime
-                </Text>
-              </Link>
-            </Heading>      
-          </Box>          
+          {/* Footer con */}          
           {/* Copyright */}
           <Box>
             <Text
